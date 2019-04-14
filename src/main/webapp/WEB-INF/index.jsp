@@ -7,7 +7,7 @@
 <body>
 
 <c:forEach items="${requestScope.emps}" var="emp">
-    ${emp.id},${emp.name},${emp.age}
+    ${emp.id},${emp.name},${emp.age}<br>
 </c:forEach>
 </body>
 </html>
